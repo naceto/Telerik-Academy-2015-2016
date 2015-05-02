@@ -1,3 +1,10 @@
+#Visual Studio Ignore List
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

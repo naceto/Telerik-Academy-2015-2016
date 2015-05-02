@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1LeapYear", "Problem1LeapYear\Problem1LeapYear.csproj", "{DC3D5AA8-1DD5-4E4D-8D78-4061C4F76FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2RandomNumbers", "Problem2RandomNumbers\Problem2RandomNumbers.csproj", "{F2BF267E-8F01-4D8C-8ADA-E3E8441F0841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3DayOfWeek", "Problem3DayOfWeek\Problem3DayOfWeek.csproj", "{2C2FBD30-64D4-430A-8DC7-9B765C3CB999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem4TriangleSurface", "Problem4TriangleSurface\Problem4TriangleSurface.csproj", "{AC77A81F-BEC8-4A97-B5AD-68DD76FB4438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem5Workdays", "Problem5Workdays\Problem5Workdays.csproj", "{5A483501-CE6B-43BC-8288-C21DB1329AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem6SumIntegers", "Problem6SumIntegers\Problem6SumIntegers.csproj", "{196D9F32-E962-40F5-9A1B-F6763C675CB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{196D9F32-E962-40F5-9A1B-F6763C675CB6}.Debug|x86.ActiveCfg = Debug|x86
+		{196D9F32-E962-40F5-9A1B-F6763C675CB6}.Debug|x86.Build.0 = Debug|x86
+		{196D9F32-E962-40F5-9A1B-F6763C675CB6}.Release|x86.ActiveCfg = Release|x86
+		{196D9F32-E962-40F5-9A1B-F6763C675CB6}.Release|x86.Build.0 = Release|x86
+		{2C2FBD30-64D4-430A-8DC7-9B765C3CB999}.Debug|x86.ActiveCfg = Debug|x86
+		{2C2FBD30-64D4-430A-8DC7-9B765C3CB999}.Debug|x86.Build.0 = Debug|x86
+		{2C2FBD30-64D4-430A-8DC7-9B765C3CB999}.Release|x86.ActiveCfg = Release|x86
+		{2C2FBD30-64D4-430A-8DC7-9B765C3CB999}.Release|x86.Build.0 = Release|x86
+		{5A483501-CE6B-43BC-8288-C21DB1329AFE}.Debug|x86.ActiveCfg = Debug|x86
+		{5A483501-CE6B-43BC-8288-C21DB1329AFE}.Debug|x86.Build.0 = Debug|x86
+		{5A483501-CE6B-43BC-8288-C21DB1329AFE}.Release|x86.ActiveCfg = Release|x86
+		{5A483501-CE6B-43BC-8288-C21DB1329AFE}.Release|x86.Build.0 = Release|x86
+		{AC77A81F-BEC8-4A97-B5AD-68DD76FB4438}.Debug|x86.ActiveCfg = Debug|x86
+		{AC77A81F-BEC8-4A97-B5AD-68DD76FB4438}.Debug|x86.Build.0 = Debug|x86
+		{AC77A81F-BEC8-4A97-B5AD-68DD76FB4438}.Release|x86.ActiveCfg = Release|x86
+		{AC77A81F-BEC8-4A97-B5AD-68DD76FB4438}.Release|x86.Build.0 = Release|x86
+		{DC3D5AA8-1DD5-4E4D-8D78-4061C4F76FED}.Debug|x86.ActiveCfg = Debug|x86
+		{DC3D5AA8-1DD5-4E4D-8D78-4061C4F76FED}.Debug|x86.Build.0 = Debug|x86
+		{DC3D5AA8-1DD5-4E4D-8D78-4061C4F76FED}.Release|x86.ActiveCfg = Release|x86
+		{DC3D5AA8-1DD5-4E4D-8D78-4061C4F76FED}.Release|x86.Build.0 = Release|x86
+		{F2BF267E-8F01-4D8C-8ADA-E3E8441F0841}.Debug|x86.ActiveCfg = Debug|x86
+		{F2BF267E-8F01-4D8C-8ADA-E3E8441F0841}.Debug|x86.Build.0 = Debug|x86
+		{F2BF267E-8F01-4D8C-8ADA-E3E8441F0841}.Release|x86.ActiveCfg = Release|x86
+		{F2BF267E-8F01-4D8C-8ADA-E3E8441F0841}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Problem5Workdays\Problem5Workdays.csproj
+	EndGlobalSection
+EndGlobal

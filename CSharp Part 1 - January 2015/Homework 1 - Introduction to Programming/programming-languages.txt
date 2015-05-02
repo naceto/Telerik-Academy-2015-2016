@@ -1,0 +1,22 @@
+1. C
+C is a general-purpose, imperative computer programming language. It supports structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. Many later languages have borrowed directly or indirectly from C, including D, Go, Rust, Java, JavaScript, Limbo, LPC, C#, Objective-C, Perl, PHP, Python, Verilog and Unix's C shell. 
+Comparison:
+	1.1. C is not object-oriented while C# is.
+	1.2. Although C# applications are intended to be economical with regard to memory and processing power requirements, the language was not 	 intended to compete directly on performance and size with C.
+	3. C# has a more complete standard library and you can use practically any C library in C#.
+
+2. C++
+C++ is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low-level memory manipulation. C++ is a compiled language, with implementations of it available on many platforms and provided by various organizations.
+Comparison:
+	2.1. Both C++ and C# are object-oriented programming langiages.
+
+3. PHP
+PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language.PHP code can be simply mixed with HTML code, or it can be used in combination with various templating engines and web frameworks. PHP code is usually processed by a PHP interpreter. Basic object-oriented programming functionality was added in PHP 3 and improved in PHP 4.
+Comparison:
+	3.1. PHP is a scripting language while C# is compiling language.
+
+4.JAVA
+Java is a functional computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that code that runs on one platform does not need to be recompiled to run on another. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture.
+
+5.JavaScript
+JavaScript is a dynamic computer programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed. It is also used in server-side network programming with runtime environments such as Node.js, game development and the creation of desktop and mobile applications.

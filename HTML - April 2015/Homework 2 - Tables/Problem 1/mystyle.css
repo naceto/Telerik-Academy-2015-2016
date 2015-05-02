@@ -1,0 +1,23 @@
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+.cell-width {
+    width: 30px;
+}
+
+#table-header {
+    font-size: 26px;
+}
+
+#first {
+    width: 380px;
+}

@@ -1,0 +1,33 @@
+table {
+    padding: 0;
+    border-color: skyblue;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* code from stackoverflow: http://stackoverflow.com/questions/2371105/html-input-textbox-with-a-width-of-100-overflows-table-cells */
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: right;
+    color: skyblue;
+}
+
+#zero {
+    width: 100%;
+}
+
+.calc_button {
+    width: 40px;
+    height: 40px;
+    color: skyblue;
+}
+
+table,
+td,
+th {
+    border: 1px solid skyblue;
+    padding: 0;
+}

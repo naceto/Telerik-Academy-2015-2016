@@ -1,0 +1,14 @@
+table,
+tr {
+    border: 1px solid black;
+}
+
+.borderless-table,
+.borderless-table tr,
+.borderless-table td {
+    border: none;
+}
+
+a {
+    color: cadetblue;
+}

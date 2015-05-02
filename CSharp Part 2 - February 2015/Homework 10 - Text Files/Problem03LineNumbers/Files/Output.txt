@@ -1,0 +1,74 @@
+  1. Homework: Text Files
+  2. Problem 1. Odd lines
+  3. 
+  4. Write a program that reads a text file and prints on the console its odd lines.
+  5. Problem 2. Concatenate text files
+  6. 
+  7. Write a program that concatenates two text files into another text file.
+  8. Problem 3. Line numbers
+  9. 
+ 10. Write a program that reads a text file and inserts line numbers in front of each of its lines.
+ 11. The result should be written to another text file.
+ 12. Problem 4. Compare text files
+ 13. 
+ 14. Write a program that compares two text files line by line and prints the number of lines that are the same and the number of lines that are different.
+ 15. Assume the files have equal number of lines.
+ 16. Problem 5. Maximal area sum
+ 17. 
+ 18. Write a program that reads a text file containing a square matrix of numbers.
+ 19. Find an area of size 2 x 2 in the matrix, with a maximal sum of its elements.
+ 20. The first line in the input file contains the size of matrix N.
+ 21. Each of the next N lines contain N numbers separated by space.
+ 22. The output should be a single number in a separate text file.
+ 23. Example:
+ 24. 
+ 25. input	output
+ 26. 4 
+ 27. 2 3 3 4 
+ 28. 0 2 3 4 
+ 29. 3 7 1 2 
+ 30. 4 3 3 2	17
+ 31. Problem 6. Save sorted names
+ 32. 
+ 33. Write a program that reads a text file containing a list of strings, sorts them and saves them to another text file.
+ 34. Example:
+ 35. 
+ 36. input.txt	output.txt
+ 37. Ivan 
+ 38. Peter 
+ 39. Maria 
+ 40. George	George 
+ 41. Ivan 
+ 42. Maria 
+ 43. Peter
+ 44. Problem 7. Replace sub-string
+ 45. 
+ 46. Write a program that replaces all occurrences of the sub-string start with the sub-string finish in a text file.
+ 47. Ensure it will work with large files (e.g. 100 MB).
+ 48. Problem 8. Replace whole word
+ 49. 
+ 50. Modify the solution of the previous problem to replace only whole words (not strings).
+ 51. Problem 9. Delete odd lines
+ 52. 
+ 53. Write a program that deletes from given text file all odd lines.
+ 54. The result should be in the same file.
+ 55. Problem 10. Extract text from XML
+ 56. 
+ 57. Write a program that extracts from given XML file all the text without the tags.
+ 58. Example:
+ 59. 
+ 60. <?xml version="1.0"><student><name>Pesho</name><age>21</age><interests count="3"><interest>Games</interest><interest>C#</interest><interest>Java</interest></interests></student>
+ 61. 
+ 62. Problem 11. Prefix "test"
+ 63. 
+ 64. Write a program that deletes from a text file all words that start with the prefix test.
+ 65. Words contain only the symbols 0…9, a…z, A…Z, _.
+ 66. Problem 12. Remove words
+ 67. 
+ 68. Write a program that removes from a text file all words listed in given another text file.
+ 69. Handle all possible exceptions in your methods.
+ 70. Problem 13. Count words
+ 71. 
+ 72. Write a program that reads a list of words from the file words.txt and finds how many times each of the words is contained in another file test.txt.
+ 73. The result should be written in the file result.txt and the words should be sorted by the number of their occurrences in descending order.
+ 74. Handle all possible exceptions in your methods.

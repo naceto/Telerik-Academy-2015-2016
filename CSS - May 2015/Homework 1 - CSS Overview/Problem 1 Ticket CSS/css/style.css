@@ -1,0 +1,39 @@
+body {
+    background-color: #595959;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.info {
+    color: #aaa;
+}
+
+tbody td {
+    font-size: 0.7em;
+    color: #ddd;
+}
+
+em {
+    font-style: italic;
+}
+
+#status {
+    color: darkorange;
+}
+
+.important {
+    color: lightgoldenrodyellow;
+}
+
+#alert {
+    color: red;
+}
+
+#dot:before {
+    vertical-align: middle;
+    content: "•";
+    font-size: 30px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #71B47A;
+}

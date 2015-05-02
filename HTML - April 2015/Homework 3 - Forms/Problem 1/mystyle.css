@@ -1,0 +1,22 @@
+table,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.short-input {
+    width: 50px;
+}
+
+#first {
+    width: 120px;
+}
+
+td:nth-child(1) {
+    text-align: center;
+}
+
+tfoot {
+    background-color: aquamarine;
+}
