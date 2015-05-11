@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+}
+
+main {
+    background-color: #1E3741;
+    height: 326px;
+    width: 610px;
+    border-radius: 5px;
+}
+
+main > nav {
+    padding-top: 10px;
+    width: 100%;
+}
+
+main > nav > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+main > nav > ul li {
+    display: inline-block;
+    background-color: #4B5F67;
+    margin-left: -2px;
+    padding: 5px 10px;
+}
+
+main > nav > ul li:first-of-type {
+    background: none;
+}
+
+main > nav > ul li:not(:first-of-type) a {
+    color: #93ACA9;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 12.7px;
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+main > aside ul {
+    list-style-type: none;
+    width: 235px;
+    padding: 0px;
+    margin-top: 15px
+}
+
+main > aside ul li {
+    padding: 6px;
+    text-align: left;
+    padding-right: 15px;
+    border-top: 1px solid #A5AFB3;
+}
+
+main > aside {
+    display: inline-block;
+}
+
+main > aside ul li a {
+    color: #A5AFB3;
+}
+
+main > aside ul li:first-of-type {
+    background-color: #00968C;
+    border: 0;
+}
+
+main > aside ul li:first-of-type a {
+    color: white;
+}
+
+main > aside ul li:nth-child(2) {
+    border: 0;
+}
+
+main > img {
+    display: inline-block;
+    height: 252px;
+    vertical-align: 90%;
+    margin-left: -4px;
+}
