@@ -1,0 +1,145 @@
+gradient-generator(fromColor, fromPos, toColor, toPos)
+    background: fromColor;
+    background: -moz-linear-gradient(top,  fromColor fromPos, toColor toPos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(fromPos,fromColor), color-stop(toPos,toColor));
+    background: -webkit-linear-gradient(top,  fromColor fromPos,toColor toPos);
+    background: -o-linear-gradient(top,  fromColor fromPos,toColor toPos);
+    background: -ms-linear-gradient(top,  fromColor fromPos,toColor toPos);
+    background: linear-gradient(to bottom,  fromColor fromPos,toColor toPos);
+    
+    
+ul
+li
+    margin 0
+    padding 0
+        
+body 
+    gradient-generator(#C894F2, 0%, #9215F2, 15%)
+    color white
+    a
+        color #C894F2
+    
+
+#logo-container
+    float left
+
+#reg-form-container
+    float right
+    margin-top 28px
+    margin-right 40px
+    label
+        color white
+        font-weight bold
+
+#header-container:after
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+
+#btn-register
+    gradient-generator(#B361F1, 0%, #BC62FF, 100%)
+    border-radius 7px
+    color white
+    font-weight bold
+    padding 5px 15px
+
+#tb-username
+#tb-password
+    background-color #B35EF3
+    border-radius 15px
+    border-color #9215F2
+    width 140px
+    height 20px
+    margin-bottom 10px
+
+#tb-password
+    margin-left 4px
+    
+nav
+    border 1px solid black
+    width 960px
+    border-radius 12px
+    margin-left 15px
+    
+.nav-list
+    list-style-type none
+    
+#main-nav-list 
+    position relative
+    padding 10px
+    & > li
+        display inline-block
+        &:nth-child(2):hover
+            .sub-nav-list
+                display block
+            
+        & > a
+            color white;
+            text-decoration none
+            margin-left 10px
+            &:hover
+                text-decoration underline
+        
+
+.sub-nav-list
+    position absolute
+    display none
+    background-color #C894F2
+    & li 
+        text-align center
+        padding 5px;
+        border 1px solid #9215F2
+        & a
+            color white
+            text-decoration none
+
+body
+    section
+        margin-top 30px
+        display inline-block
+        width 940px
+        article
+            margin 5px
+            padding 20px
+            margin-bottom 20px
+            border-radius 10px
+            border 1px solid black
+            header
+                h1
+                    margin 0
+                    margin-bottom 5px
+                    margin-left 5px
+                    padding 0
+            p
+                margin 0
+                padding 0
+            footer
+                text-align right
+    aside
+        display inline-block
+        width 280px
+        margin-left 25px
+        vertical-align top
+        > ul
+            list-style-type none
+            margin-top 45px
+            > li
+                padding 20px
+                padding-top 0px
+                border-radius 5px
+                margin-bottom 15px
+                border 1px solid black
+                h2 
+                    font-size 20px
+                    margin-left -10px
+                ul
+                    margin-left 30px
+                    list-style-type none
+                    li
+                        list-style-image: url("/images/li-dot.png");
+                        
+footer
+    text-align center
